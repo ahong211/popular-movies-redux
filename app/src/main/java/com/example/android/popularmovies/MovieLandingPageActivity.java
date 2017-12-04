@@ -43,10 +43,9 @@ public class MovieLandingPageActivity extends AppCompatActivity {
         }
 
         @Override
-        protected void onPostExecute(MovieInfo[] movieInfos) {
-            super.onPostExecute(movieInfos);
+        protected void onPostExecute(MovieInfo[] movieInfo) {
+            super.onPostExecute(movieInfo);
 
-            
         }
     }
 }
